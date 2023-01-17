@@ -1,0 +1,6 @@
+id,name,author,genre,status,description,cover,chapters,views,rating,date,url
+1,One Piece,Eiichiro Oda,Adventure,Ongoing,"A pirate adventure story about Monkey D. Luffy and his crew, the Straw Hat Pirates",onepiece.jpg,932,10000000,9.5,2022-01-01,https://onepiece.com
+2,Naruto,Masashi Kishimoto,Adventure,Completed,"A ninja story about Naruto Uzumaki and his quest to become the Hokage",naruto.jpg,720,8000000,8.0,2021-01-01,https://naruto.com
+3,Bleach,Tite Kubo,Fantasy,Completed,"A story about a teenager who gains the power to see ghosts and becomes a Soul Reaper",bleach.jpg,366,6000000,7.5,2020-01-01,https://bleach.com
+4,Hunter x Hunter,Yoshihiro Togashi,Adventure,Ongoing,"A story about a young boy who becomes a Hunter, a member of society's elite who possess exceptional abilities",hunterxhunter.jpg,385,5000000,9.0,2019-01-01,https://hunterxhunter.com
+5,Fairy Tail,Hiro Mashima,Fantasy,Completed,"A story about a young wizard and her friends in the Fairy Tail guild",fairytail.jpg,328,4000000,8.5,2018-01-01,https://fairytail.com
