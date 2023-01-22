@@ -46,10 +46,12 @@ public class Manga {
     @Column(name = "url")
     private String url;
 
+
     public Manga() {
     }
 
-    public Manga(String name, String author, String genre, String status, String description, String cover, String chapters, String views, String rating, String date, String url) {
+    public Manga(String name, String author, String genre, String status, String description,
+                 String cover, String chapters, String views, String rating, String date, String url) {
         this.name = name;
         this.author = author;
         this.genre = genre;
@@ -63,6 +65,10 @@ public class Manga {
         this.url = url;
     }
     //GETTERS & SETTERS //
+
+    public Long getId() {
+        return id;
+    }
 
     public String getName() {
         return name;

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Mangas</title>
+</head>
+<body>
+<h1>My Mangas</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Status</th>
+        <th>Description</th>
+        <th>Cover</th>
+        <th>Chapters</th>
+        <th>Views</th>
+        <th>Rating</th>
+        <th>Date</th>
+        <th>URL</th>
+        <th>Time Left</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let manga of mangas">
+        <td>{{ manga.name }}</td>
+        <td>{{ manga.author }}</td>
+        <td>{{ manga.genre }}</td>
+        <td>{{ manga.status }}</td>
+        <td>{{ manga.description }}</td>
+        <td>{{ manga.cover }}</td>
+        <td>{{ manga.chapters }}</td>
+        <td>{{ manga.views }}</td>
+        <td>{{ manga.rating }}</td>
+        <td>{{ manga.date }}</td>
+        <td>{{ manga.url }}</td>
+        <td>{{ manga.timeLeft }}</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

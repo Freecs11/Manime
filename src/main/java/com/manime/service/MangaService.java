@@ -2,6 +2,7 @@ package com.manime.service;
 import java.util.List;
 import com.manime.model.Manga;
 import com.manime.repository.MangaRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -9,14 +10,15 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class MangaService {
 
-    private final MangaRepository mangaRepository;
-
+    private  MangaRepository mangaRepository;
+    @Autowired
     public MangaService(MangaRepository mangaRepository) {
         this.mangaRepository = mangaRepository;
     }
 
 
     public List<Manga> findAll() {
+
         return mangaRepository.findAll();
     }
 

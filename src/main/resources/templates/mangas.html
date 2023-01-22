@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mangas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Mangas</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Status</th>
+        <th>Description</th>
+        <th>Cover</th>
+        <th>Chapters</th>
+        <th>Views</th>
+        <th>Rating</th>
+        <th>Date</th>
+        <th>URL</th>
+    </tr>
+    <tr th:each="manga : ${mangas}">
+        <td th:text="${manga.name}"></td>
+        <td th:text="${manga.author}"></td>
+        <td th:text="${manga.genre}"></td>
+        <td th:text="${manga.status}"></td>
+        <td th:text="${manga.description}"></td>
+        <td th:text="${manga.cover}"></td>
+        <td th:text="${manga.chapters}"></td>
+        <td th:text="${manga.views}"></td>
+        <td th:text="${manga.rating}"></td>
+        <td th:text="${manga.date}"></td>
+        <td th:text="${manga.url}"></td>
+    </tr>
+</table>
+</body>
+</html>

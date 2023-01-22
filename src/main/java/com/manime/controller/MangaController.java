@@ -6,7 +6,7 @@ import com.manime.service.MangaService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/mangas")
+@RequestMapping("/mangaSingle")
 public class MangaController {
 
     private final MangaService mangaService;
@@ -31,7 +31,7 @@ public class MangaController {
         return mangaService.save(manga);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public void deleteById(@PathVariable Long id) {
         mangaService.deleteById(id);
     }
